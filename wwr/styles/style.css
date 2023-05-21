@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Roboto&family=Wix+Madefor+Display&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,21 +9,42 @@ nav a{
     text-align: center;
     color: #2e294e;
     text-decoration: none;
+    padding: 35px;
 }
 h4{
     color: #2e294e;
 }
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+  }
 .msg h2{
     color: #2e294e;
+    font-family: 'Roboto', sans-serif,'Courier New', Courier, monospace;;
 }
 .msg p{
     color: #2e294e;
+    font-size: .8em;
+    padding-bottom: 15px;
+    
 }
 .home-title{
     color: #2e294e;
+    font-family: 'Roboto', sans-serif,'Courier New', Courier, monospace;;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+h2{
+    margin: 0;
+}
+footer{
+    padding: 25px 50px;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a{
     color: #9e2a2b;
@@ -41,9 +65,16 @@ footer p a:hover {
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 body{
     background-color: white;
+    font-family: 'Wix Madefor Display', sans-serif,'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #99c24d;
@@ -57,6 +88,16 @@ nav a:hover{
     color: #9e2a2b;
     background-color: #99c24d;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img{
+    border: 10px solid black;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .book:hover, .join:hover{
     background-color: #99c24d;
@@ -73,4 +114,10 @@ footer{
 }
 .icon, .logo {
     width: 80px;
+}
+.icon{
+    padding-top: 10px;
+}
+#logo_link{
+    padding-top: 5px;
 }
