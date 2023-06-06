@@ -16,7 +16,7 @@ nav a{
     padding: 35px;
 }
 h4{
-    color: #2e294e;
+    color: #99c24d;
 }
 .msg {
     background-color: #2e294e;
@@ -41,7 +41,7 @@ h4{
     grid-template-columns: repeat(10,1fr)
 }
 .home-title{
-    color: #2e294e;
+    color: #fff;
     font-family: 'Roboto', sans-serif,'Courier New', Courier, monospace;;
     font-size: 2em;
     margin-top: 10px;
@@ -86,7 +86,6 @@ footer p a:hover {
 }  
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color: white;
 }
 #hero-msg {
     grid-column: 2/3;
