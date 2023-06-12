@@ -4,10 +4,10 @@ Fonts are separated by a | */
   @import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #1B2845  ;
-  --secondary-color: #5899E2;
-  --accent1-color: #335C81;
-  --accent2-color: #65AFFF;
+  --primary-color: #274060  ;
+  --secondary-color: #335C81;
+  --accent1-color: #65AFFF;
+  --accent2-color: #1B2845;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Comme";
