@@ -188,10 +188,39 @@ footer{
     align-self: center;
 }
 
+/* Rives page styles */
+.title-section{
+   text-align: center;
+}
+.rives-page-content-container{
+    padding: 0px 40px;
+}
+.content-div{
+    margin-top: 24px;
+}
+.content-div h2{
+    margin-bottom: 10px;
+}
+.img-container{
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* End of Rives page styles */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
+    }
+    .img-container{
+        grid-template-columns: repeat(1,1fr);
     }
     nav, footer {
         flex-direction: column;
