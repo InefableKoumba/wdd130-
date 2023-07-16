@@ -225,3 +225,13 @@ footer img {
     height: 400px;
     object-fit: cover;
 }
+
+/* Responsive header component */
+
+
+@media screen and (max-width: 800px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
