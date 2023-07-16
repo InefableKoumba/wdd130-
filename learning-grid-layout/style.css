@@ -1,0 +1,99 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 4;
+    padding: 2rem 0;
+    background-color: grey;
+
+}
+
+.grid1 h1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 12;
+    background-color: yellow;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: white;
+    grid-column: 2 / span 9;
+    grid-row: 2 / span 1;
+}
+
+.grid2 h2 {
+    grid-column: span 6;
+}
+
+.grid3 {
+    grid-column: span 6;
+    background-color: green;
+}
+
+.grid3 h3 {}
+
+.grid4 {
+    grid-column: 4/span 7;
+    background-color: greenyellow;
+}
+
+.grid4 h2 {}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 4;
+    grid-column: 2/span 7;
+    background-color: white;
+}
+
+section h2 {
+    grid-column: span 12;
+}
+
+section div {
+    grid-column: 2/ span 5;
+    grid-row: 3 / span 1;
+
+}
+
+form {
+    grid-column: 2/ span 5;
+    background-color: burlywood;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+fieldset>div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+}
+
+label {
+    grid-column: 1/ span 1;
+    text-align: right;
+}
+
+input {
+    grid-column: 2/ span 1;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: blue;
+}
+
+section>div {}
